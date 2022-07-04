@@ -6,7 +6,7 @@ public class Persons implements IRetirement {
 
 	private String name;
 	private int birthYear;
-	private String gender;
+	private EGender gender;
 	private int retirementAge;
 
 	public Persons() {
@@ -36,11 +36,11 @@ public class Persons implements IRetirement {
 		this.birthYear = birthYear;
 	}
 
-	public String getGender() {
+	public EGender getGender() {
 		return gender;
 	}
 
-	public void setGender(String gender) {
+	public void setGender(EGender gender) {
 		this.gender = gender;
 	}
 

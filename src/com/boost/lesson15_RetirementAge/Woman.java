@@ -4,13 +4,13 @@ public class Woman extends Persons {
 
 	public Woman() {
 		setRetirementAge(60);
-		setGender("Female".toUpperCase());
+		setGender(EGender.woman);
 	}
 
 	public Woman(String name, int birthYear) {
 		super(name, birthYear);
 		setRetirementAge(60);
-		setGender("Female".toUpperCase());
+		setGender(EGender.woman);
 	}
 
 }

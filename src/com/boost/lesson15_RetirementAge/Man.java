@@ -4,13 +4,13 @@ public class Man extends Persons {
 
 	public Man() {
 		setRetirementAge(65);
-		setGender("male".toUpperCase());
+		setGender(EGender.man);
 	}
 
 	public Man(String name, int birthYear) {
 		super(name, birthYear);
 		setBirthYear(65);
-		setGender("male".toUpperCase());
+		setGender(EGender.man);
 	}
 
 }

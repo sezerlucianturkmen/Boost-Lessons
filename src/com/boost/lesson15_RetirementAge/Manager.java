@@ -40,10 +40,15 @@ public class Manager {
 	}
 
 	public Persons selectGender() {
+		Persons person;
+
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("1-Male");
-		System.out.println("2-Female");
-		System.out.println("Please enter any selection");
+
+		for (EGender gender : EGender.values()) {
+			System.out.println(gender.getNumber() + "-" + gender.getName());
+		}
+
+		System.out.println("Lütfen seçim yapınız");
 		int input = scanner.nextInt();
 		scanner.nextLine();
 
